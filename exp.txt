@@ -1,0 +1,4 @@
+To what request this route path correspond?
+app.get('/*.html', (req, res) => {
+    res.sendFile(req.url,{root:'./public'});
+});
